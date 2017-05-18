@@ -87,3 +87,18 @@
 .clip-text_one {
     background-image: url(../fuzzy.jpg);
 }
+
+/* Custom Coverr CSS */
+#headerContent {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+video {
+    position: inherit;
+    min-width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
