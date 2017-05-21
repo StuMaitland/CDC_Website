@@ -106,3 +106,9 @@ video {
 .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
     max-height: 100%;
 }
+
+.center-align{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
