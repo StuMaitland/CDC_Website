@@ -102,3 +102,7 @@ video {
     overflow: hidden;
     z-index: -1;
 }
+
+.card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
+    max-height: 100%;
+}
